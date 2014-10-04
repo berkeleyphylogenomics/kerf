@@ -1,4 +1,4 @@
-#!/clusterfs/ohana/software/python/2.7.6/bin/python
+#!/usr/bin/env python
 ''' This file contains the code for the kerf function.  Inputs are:
 
 1) Tree file in newick format.
