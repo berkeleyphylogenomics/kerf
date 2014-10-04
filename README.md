@@ -6,6 +6,11 @@ phylogenetic tree cutting algorithm
 Kerf cuts a tree into subtrees based on minimum pairwise identity.
 
 *************************************************************************
+REQUIREMENTS:  requires AlignIO from BioPython, TreeNode from ete2
+*************************************************************************
+
+
+*************************************************************************
 USAGE:  kerf.py <path to newick tree file> <path to aligned fasta file> <kerf threshold as integer <=100 >
 
 kerf cuts a newick tree into subtrees based on minimum pairwise identity.
