@@ -16,7 +16,7 @@ def pairwise_identity_belvu(seq0, seq1):
     but attempted to be more concise.  Taken from bpg.common.BPGPWID'''
     if len(seq0) != len(seq1):
         print 'Sequence lengths do not match. Exiting ...'
-    return
+        return
     match = 0
     identity = 0
     for ind, char0 in enumerate(seq0):
